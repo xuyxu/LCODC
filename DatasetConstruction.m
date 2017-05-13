@@ -11,7 +11,7 @@
 % Yixuan Xu, Central South University, 2016/9/24.
 
 % replace with your personal path
-path = 'D:\工作文档\(第二篇)智能交通\数据集\完整数据集\';
+path = 'D:\Dataset\';
 % obtain all files' information
 FileName = dir(strcat(path,'*.txt'));
 for i=1:size(FileName,1)
