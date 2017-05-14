@@ -3,6 +3,11 @@
 # Author: Yixuan Xu
 # Latest Updated Time: 26 Mar, 2017
 
+from __future__ import absolute_import
+from __future__ import unicode_literals
+from __future__ import division
+from __future__ import absolute_import
+
 import numpy as np
 import scipy.io as scio
 from sklearn.cluster import KMeans, MeanShift, estimate_bandwidth
